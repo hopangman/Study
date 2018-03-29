@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    학습목표 - 1. 변수를 경험한다.
+              2. 사용자에게 입력 받는 방법을 알아본다.
+
+    요구사항 - 1. 사용자가 입력한 숫자 값에 해당하는 단을 출력한다.
+              4. 콘솔 버전과 웹 버전 두가지를 작성한다.
+-->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>입력값으로 구구단 출력하기</title>
+</head>
+<body>
+  <h1>X단 출력하기</h1>
+  <script>
+
+  var x = prompt("몇 단을 출력할까요?")
+  // prompt는 사용자에게 값을 입력받는 명령어 입니다.
+
+  var n = Number(x);
+  //n에는 문자열 변수가 들어가기 때문에
+  //숫자로 바꿔줘야 합니다.
+
+  document.write(x + "단" + "<br>");
+  document.write(n + " * 1 = " + n * 1 + "<br>");
+  document.write(n + " * 2 = " + n * 2 + "<br>");
+  document.write(n + " * 3 = " + n * 3 + "<br>");
+  document.write(n + " * 4 = " + n * 4 + "<br>");
+  document.write(n + " * 5 = " + n * 5 + "<br>");
+  document.write(n + " * 6 = " + n * 6 + "<br>");
+  document.write(n + " * 7 = " + n * 7 + "<br>");
+  document.write(n + " * 8 = " + n * 8 + "<br>");
+  document.write(n + " * 9 = " + n * 9 + "<br>");
+
+  </script>
+</body>
+</html>
